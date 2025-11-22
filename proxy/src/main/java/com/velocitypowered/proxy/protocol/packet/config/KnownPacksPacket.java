@@ -28,7 +28,7 @@ public class KnownPacksPacket implements MinecraftPacket {
 
     private static final int MAX_LENGTH_PACKS = Integer.getInteger("velocity.max-known-packs", 128);
     private static final QuietDecoderException TOO_MANY_PACKS =
-        new QuietDecoderException("too many known packs");
+        new QuietDecoderException("too many known packs -> marrow :)");
 
     private KnownPack[] packs;
 
